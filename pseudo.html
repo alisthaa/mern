@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 1px solid black;
+            width: 50%;
+            height: 100px; 
+            margin: 0;
+          
+        }
+       div:first-child{
+            background-color: red;
+        }
+        div:nth-child(3){
+            background-color: blueviolet;
+        }
+        div:nth-child(4){
+            background-color: brown;
+        }
+        
+        section p:not(.plain){
+            color:red;
+        }
+        input:focus{
+            border: 1px solid red;
+            outline: none;
+        }
+        button:active{
+            background-color: red;
+        }
+        a:active{
+            color: red;
+        }
+        .boxes{
+            width: 50%;
+            height: 25%;
+            background-color: teal;
+            
+            
+        }
+        section p{
+            font-size: 32px;
+            font-size: 2em;
+            font-size: 2rem;
+        }
+        .big-text{
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="./index.html"> homepage</a>
+        <a href="./aboutus.html"> about us </a>
+    </nav>
+    <h1>Pseudo class</h1>
+    <section class="boxes">
+    <div class="box ">
+        box 1
+    </div>
+    <div class="box ">
+        box 2
+    </div>
+    <div class="box">
+        box 3
+    </div>
+    <div class="box">
+        box 4
+    </div>
+</section>
+<p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio voluptates numquam at maxime nulla sed. Iusto mollitia maiores enim animi fugiat, eligendi veniam magnam, autem cupiditate accusantium soluta laudantium!
+
+</p>
+<section class="big-text">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit iste quaerat ea praesentium id excepturi iure quisquam illum, ex veritatis culpa hic eaque, facere, amet tempora. Voluptas voluptates quisquam odio.
+
+    </p>
+    <p class="plain">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consectetur similique eligendi, dicta dolorem recusandae laborum sint suscipit velit autem eveniet debitis ex voluptates! Dolor libero odit qui? Veniam, nesciunt.
+         </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla similique, possimus, nisi sapiente numquam laboriosam nostrum labore suscipit sunt tempore est, quo minus optio maiores nemo inventore placeat dicta dolore?
+
+    </p>
+</section>
+
+
+    <form>
+        <input type="text">
+        <input type="text">
+        <button> submit </button>
+    </form>
+
+</body>
+</html>

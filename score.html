@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+<style>
+    .box{
+        border: 1px solid black;
+        width: 100px;
+        height: 100px; 
+    }
+    .bgred{
+        background-color: red;
+    }
+    .bggreen{
+        background-color: green;
+    }
+    .bgblue{
+        background-color: blue;
+    }
+    /*010*/
+    .active{
+    color: red;
+    }
+
+    /*012*/
+    body div.box{
+        background-color: blueviolet;
+    }
+    /*011*/
+    div.box{
+        background-color: aquamarine;
+    }
+    /*010*/
+    .box{
+        background-color: red;
+    }
+    /*001*/
+    div{
+        background-color: orange !important;
+        text-transform: uppercase;
+        font-size: 48px;
+        margin: 10px;
+}
+
+</style>
+</head>
+<body>
+    <a href="https://www.google.com">google</a>
+<a href="https://www.facebook.com" target="_blank" target="_blank"> facebook</a>
+<a href="aboutus.html"target="_blank">about us</a>
+<a href="./New folder/python.html"target="_blank">python</a>
+<a href="./New folder/upcomingcourses/qa.html">qa</a>
+<a href="./index.html" > homepage</a>
+<a href="./css/combined-selectors.html"> combined-selectors</a>
+<a href="#"class="active"> score</a>
+    <h1> specifity score // css priority</h1>
+    <p>
+        !important > inline css > id > class > tag/element 
+    </p>
+    <div class="box bgred" style="background-color: aqua;">
+        box 1
+    </div>
+    <div class="box bggreen">
+        box 2
+    </div>
+    <div class="box bgblue">
+        box 3
+    </div>
+</body>
+</html>

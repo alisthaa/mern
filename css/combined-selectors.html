@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        h1,hr,h2{
+            margin-top: 16px;
+            margin-bottom: 20px;
+        }
+        
+        body{
+            margin: 0;
+        }
+        p{
+            margin-top: 16px;
+            margin-bottom: 20px;
+        }
+        
+        ul{
+            padding: 16px;
+        }
+        .box{
+         border: 10px solid black;
+         width: 375px;
+         padding: 20px;
+         box-sizing: border-box;
+         
+        }
+        
+       .box .text-red{
+        color: red;
+       }
+        .text-red{
+            color: red;
+        }
+        .small{
+            width: 200px;
+            margin-bottom: auto;
+        }
+        
+        a.active{
+        color: red;
+        text-decoration: none;
+        }
+        .card{
+            border: 1px solid;
+           
+            margin: 16px 16px 16px 16px;
+            text-align: center;
+            width: 300px;
+            height: 300px;
+        }
+        .card h2{
+            color: red;
+        }
+        div.card.active{
+           border: 1px solid red;
+           box-shadow: 5px 5px 12px;
+        }
+        header :hover{
+            color: red;
+        }
+        .card:hover{
+            border: 1px solid red;
+            box-shadow: 5px 5px 12px;
+           
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <a href="https://www.google.com">google</a>
+<a href="https://www.facebook.com" target="_blank" target="_blank"> facebook</a>
+<a href="aboutus.html"target="_blank">about us</a>
+<a href="./New folder/python.html"target="_blank">python</a>
+<a href="./New folder/upcomingcourses/qa.html">qa</a>
+<a href="../index.html" > homepage</a>
+<a href="#" class="active"> combined-selectors </a> 
+</header>
+ <!-- <span class="active">combined </span>  -->
+
+
+    <h1>combination of selector</h1>
+    <button class="active">
+        submit
+    </button>
+<div class="card ">
+    <h2>$100</h2>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus odit ab cum numquam tempora tenetur ipsa aspernatur optio vel voluptatum deleniti esse obcaecati corrupti sed ut, dolor quas velit? Cupiditate!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam totam non ratione distinctio dolorum deserunt id illum vitae suscipit obcaecati reprehenderit officia at provident neque quo velit nisi, pariatur eum.
+
+    </p>
+
+</div>
+<div class="card active">
+    <h2>$100</h2>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus odit ab cum numquam tempora tenetur ipsa aspernatur optio vel voluptatum deleniti esse obcaecati corrupti sed ut, dolor quas velit? Cupiditate!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam totam non ratione distinctio dolorum deserunt id illum vitae suscipit obcaecati reprehenderit officia at provident neque quo velit nisi, pariatur eum.
+        
+    </p>
+
+</div>
+<div class="card">
+    <h2>$100</h2>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus odit ab cum numquam tempora tenetur ipsa aspernatur optio vel voluptatum deleniti esse obcaecati corrupti sed ut, dolor quas velit? Cupiditate!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam totam non ratione distinctio dolorum deserunt id illum vitae suscipit obcaecati reprehenderit officia at provident neque quo velit nisi, pariatur eum.
+        
+    </p>
+
+</div>
+    <h2>selector types</h2>
+    <ul>
+        <li>
+            <a href="https://www..." >    universal</li></a>
+       
+        <li>id</li>
+        <li>class</li>
+        <li>element/tag</li>
+    </ul>
+    <hr>
+    <h2>combined combined-selector Types</h2>
+    <ul>
+        <li>descendent</li>
+        <li>or</li>
+        <li>and</li>
+        <li>attribute</li>
+        <li>general seelctor</li>
+        <li>adjacent seelctor</li>
+    </ul>
+    <hr>
+    <h2> box sizing</h2>
+    <div class="box small">
+       <p> box small </p>
+    </div>
+    <div class="box">
+
+    <p class="text-red">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat nostrum voluptatum rerum pariatur est qui, numquam eum voluptas quibusdam quidem adipisci fugit, dignissimos repudiandae dolorem doloremque, accusamus obcaecati nisi similique.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas similique reprehenderit vitae quod illo placeat dolorum sit nesciunt natus, qui recusandae magni tenetur possimus amet vel facilis voluptatum maiores. Quibusdam?
+
+    </p>
+    <p class="text-red">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat nostrum voluptatum rerum pariatur est qui, numquam eum voluptas quibusdam quidem adipisci fugit, dignissimos repudiandae dolorem doloremque, accusamus obcaecati nisi similique.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas similique reprehenderit vitae quod illo placeat dolorum sit nesciunt natus, qui recusandae magni tenetur possimus amet vel facilis voluptatum maiores. Quibusdam?
+
+    </p>
+    </div>
+    <hr>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, assumenda beatae nobis dolorum blanditiis labore nam alias facere unde velit ipsa atque dolor saepe ab iusto deserunt? Nostrum, cupiditate minus!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi delectus soluta sequi incidunt nam quia omnis similique totam, necessitatibus cupiditate quidem libero animi molestias id harum aliquam voluptates quos dolore.
+
+    </p>
+</body>
+</html>

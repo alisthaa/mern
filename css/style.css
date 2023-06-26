@@ -1,0 +1,98 @@
+/* external css */
+/* SYNTAX
+<selectors> {
+    <css-property> : 
+    <property-value>:
+}
+selectors
+-element / tag selector
+eg body, p , h1,img , table
+*/
+/* body{
+    background-color: black;
+    color: white;
+}
+a{
+    color: orange;
+}  */
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+    /* background-color: orange; */
+    margin-top: 32px; 
+    
+}
+a{
+    color: hotpink;
+}
+th,td{
+    border: 1px solid black;
+
+    /* border: 1px solid; */
+    padding: 16px;
+}
+h2{
+    color: red;
+    color: rgb(255,0,0);
+color: #FF0000;
+    
+}
+
+
+body{
+    background-color: papayawhip;
+}
+img{
+    height: 100px;
+    width: 100px;
+    margin-left: 16px;
+}
+p{
+    text-align: justify;
+    border: 1px solid;
+    padding: 16px;
+    margin-left: 37px;
+    margin-top: 40px;
+}
+.table-two{
+    text-align: center;
+    font-weight: bold;
+
+}
+.table-one{
+    text-align: center;
+    font-weight: bold;
+}
+.text-red{
+    color: red;
+}
+.text-xl{
+    font-size: 32px;
+}
+.text-bold{
+    font-weight: bold;
+}
+/* div{
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    } */
+.box{
+    padding: 16px;
+    margin-top: 32px;
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+}
+.active{
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+header ul {
+    padding: 0;
+}
+header li{
+    display: inline;
+}
