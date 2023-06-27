@@ -3,7 +3,14 @@
 3. git remote -v (to check)
  git status// compares online repo and local repo
 4. git add <file_name>
+
 U- untracked files
 A- added// when we do git add <file_name>
+M- modified
 
 5. git commit -m "index"
+6. git push origin master
+
+branches:
+main, master
+7. git checkout -b <branch_name>
